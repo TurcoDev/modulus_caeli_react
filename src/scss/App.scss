@@ -1,0 +1,15 @@
+
+
+
+/*********
+** GENERALES
+**********/
+div.my-container {
+  color: var(--font-color);
+  --opacidad-negro: 0.75;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/images/ian-macdonald--dcznEJPmsk-unsplash.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}

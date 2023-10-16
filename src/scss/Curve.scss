@@ -1,0 +1,23 @@
+/*********
+** EFECTO CURVA TOP
+**********/
+.curved-top {
+  position: relative;
+  background: rgba(0, 0, 0, 0.45);
+  height: 5vh;
+  border-bottom-left-radius: 30% 100%;
+  border-bottom-right-radius: 30% 100%;
+}
+
+/*********
+** EFECTO CURVA BOTTOM
+**********/
+.curved-bottom {
+  position: relative;
+  bottom: -24.2%;
+  /*ver*/
+  height: 5vh;
+  background: rgba(0, 0, 0, 0.45);
+  border-top-left-radius: 30% 100%;
+  border-top-right-radius: 30% 100%;
+}

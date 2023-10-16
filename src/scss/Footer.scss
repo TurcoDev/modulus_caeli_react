@@ -1,0 +1,22 @@
+/*********
+** FOOTER
+**********/
+.my-container>.footer {
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+
+.my-container>.footer>section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-container>.footer>section>.item-section-footer {
+  margin: 5px;
+}

@@ -1,0 +1,20 @@
+/*****************
+** MODAL ESPECIAL CUERPO
+******************/
+
+.modal>.modal-dialog>.modal-content>.modal-body {
+  display: flex;
+  background-color: #222222;
+  color: var(--font-color);
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.modal>.modal-dialog>.modal-content>.modal-body>img {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.modal>.modal-dialog>.modal-content>.modal-body>.modal-text-container {
+  margin: 10px;
+}
