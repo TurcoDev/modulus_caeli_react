@@ -16,14 +16,12 @@
   background-color: var(--button-color);
   border: 2px solid var(--button-color);
   border-radius: 50%;
-  // font: inherit;
+  font: inherit;
   font-size: 2rem;
   font-weight: 800;
   line-height: 0;
-  // margin: 0.5em;
   width: 50px;
   height: 50px;
-  /* padding: 1em 2em; */
   color: var(--font-color);
   transition: 0.25s;
   animation: pulse 2s infinite;

@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import MainBody from "./components/MainBody";
 import Footer from "./components/Footer";
 import Curve from "./components/Curve";
+import SecondScreen from "./components/SecondScreen";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,13 @@ function App() {
         <Curve curve="curved-top"/>
         <Header name="Lucas" />
         <MainBody />
+        <Footer />
+        <Curve curve="curved-bottom"/>
+      </div>
+      <div className="my-container">
+        <Curve curve="curved-top"/>
+        <Header name="Lucas" />
+        <SecondScreen />
         <Footer />
         <Curve curve="curved-bottom"/>
       </div>

@@ -1,9 +1,6 @@
 import '../scss/MainBody.scss'
-import ModalButton from './ModalButton'
 
 function MainBody() {
-
-  // const buttonPosition = {top: '100px', left:'300px'}
   return (
     <>
       <main className="main-container">
@@ -30,11 +27,6 @@ function MainBody() {
             </div>
           </div>
         </div>
-        <section className="plus">
-          <ModalButton position={ {top: '100px', left:'300px'} }/>
-          <ModalButton position={ {top: '200px', left:'300px'} }/>
-          <ModalButton position={ {top: '200px', left:'500px'} }/>
-        </section>
       </main>
     </>
   )

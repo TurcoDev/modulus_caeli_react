@@ -8,7 +8,7 @@ function Modal() {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="modal-body">
-            <img src="./assets/images/bernard-hermant-d4J2kkJmuGI-unsplash.jpg" alt="" width="64" height="64"/>
+            <img src="./images/bernard-hermant-d4J2kkJmuGI-unsplash.jpg" alt="" width="64" height="64"/>
             <div className="modal-text-container">
               <h6 className="modal-title fs-5" id="exampleModalLabel">Efecto Piscina</h6>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, non rerum illum deleniti explicabo
